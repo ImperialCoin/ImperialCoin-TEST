@@ -1,0 +1,34 @@
+src/*.exe
+src/myriadcoin
+src/myriadcoind
+src/test_myriadcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.myriadcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+myriadcoin-qt
+Myriadcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+myriadcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
